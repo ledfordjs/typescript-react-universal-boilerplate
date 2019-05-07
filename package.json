@@ -1,7 +1,7 @@
 {
   "name": "typescript-react-universal-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "React server side rendering app with typescript boilerplate",
   "main": "index.js",
   "scripts": {
     "dev-build:server": "nodemon --config ./nodemon.json",
@@ -11,6 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/ledfordjs/typescript-react-universal-boilerplate.git"
   },
+  "keywords": [
+    "react",
+    "react server",
+    "reactjs",
+    "typescript",
+    "express",
+    "webpack"
+  ],
   "author": "ledfordjs",
   "license": "ISC",
   "bugs": {
