@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "alwaysStrict": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "es2015", "es5", "es6"]
+    },
+    "include": ["src/**/*.ts", "src/**/*.tsx", "typings"],
+    "exclude": ["node_modules"]
+}

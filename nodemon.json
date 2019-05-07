@@ -1,0 +1,9 @@
+{
+    "ignore": ["**/*.test.ts", "**/*.spec.ts", ".git", "node_modules"],
+    "watch": ["src/server/**/*.{ts,tsx}", "config", "webpack"],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js json ts tsx",
+    "exec": "ts-node src/server/app.ts"
+}
