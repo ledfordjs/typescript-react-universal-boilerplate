@@ -9,7 +9,7 @@ const element = document.getElementById("root");
 function render() {
     const content = (
         <AppContainer>
-            <App compiler="Client" framework="Server" />
+            <App compiler="Webpack" server="Express" />
         </AppContainer>
     );
 

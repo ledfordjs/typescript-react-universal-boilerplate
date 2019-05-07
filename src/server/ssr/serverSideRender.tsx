@@ -6,11 +6,11 @@ import { App } from "./../../client/App";
 import { Html, DOCTYPE } from "./Html";
 
 const serverSideRender: express.Handler = (req, res, next) => {
-    const app = React.createElement(App, {
-        compiler: "Client",
-        framework: "Server",
-    });
     const assets = res.locals.webpackStats.toJson().assetsByChunkName;
+    const app = React.createElement(App, {
+        compiler: "Webpack",
+        server: "Server",
+    });
 
     res.send(
         DOCTYPE +
